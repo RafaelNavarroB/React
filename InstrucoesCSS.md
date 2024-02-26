@@ -24,4 +24,7 @@ flex justify-around items-center h-screen bg-red-400
  -  text-black(troca a cor da fonte text-(COR QUE TU QUER BLACK WHITE RED + - INTENSIDADE 100 200 300 ))
  - flex justify-around(gera espacamento perfeito entre os objetos, além de dar espaçamento no inicio)
  - h-screen(adiciona a cor para o background inteiro, bom que não precisa ajustar simplesmente pega toda a página)
-
+ - flex (é o tipo de display que fica flex)
+ - border(gera uma borda)
+ - outline-none (retira o estilo original para que você possa personalizar.)
+ - w-full (serve para que o width preencha quase que completamente o quadro que está implementada)
