@@ -29,3 +29,8 @@ flex justify-around items-center h-screen bg-red-400
  - border(gera uma borda)
  - outline-none (retira o estilo original para que você possa personalizar.)
  - w-full (serve para que o width preencha quase que completamente o quadro que está implementada)
+ - cursor-pointer (fica como se fosse um botão o mouse fica como click)
+ - select-none (você pode clicar o quanto quiser que não vai selecionar o texto)
+ - select-all (ao clicar você já seleciona o texto)
+ - overflow-hidden  (AJUSTA A BORDA)
+ - md:w-3/4 (MD significa para tela menores enquanto o w-3/4 representa que aquela largura do componente sempre representará 3/4 da tela )
