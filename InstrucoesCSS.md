@@ -2,6 +2,7 @@
 flex justify-around items-center h-screen bg-red-400
 
  - bg-purple-500 (BG-CORQUETUQUER-INTENSIDADE)
+ - text-blue-500 (mesma coisa acima só que com cor para texto)
 
  - rounded-md (Arredondamento de borda - quantidade de arredondamente md = medio )
 

@@ -8,7 +8,7 @@
 - OK[REACT] componente usando props
 - OK[REACT] componente com eventos
 - OK[REACT] componente com estado
-- [REACT] comnicacao entre componentes.
+- OK[REACT] comnicacao entre componentes.
 - [REACT] rederização condicional
 - [REACT] rederização de listas
 - [REACT]
