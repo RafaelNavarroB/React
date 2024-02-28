@@ -4,9 +4,11 @@ import { IconChevronDown, IconChevronRight} from "@tabler/icons-react"
 import IfElse from "./IfElse"
 
 interface PerguntaProps {
+    indice: number
     textoPergunta: string 
     resposta: string
     aberta: boolean
+    alternarVisibilidade :(indice:number) => void
 }
 
 export default function Pergunta(props:PerguntaProps){
@@ -16,7 +18,7 @@ export default function Pergunta(props:PerguntaProps){
         `}>
             <div 
             className="bg-white p-5 cursor-pointer select-none text-blue-800 font-bold flex justify-between"
-            onClick={()=> setAberta(!aberta)}>
+            onClick={()=>  props.alternarVisibilidade(props.indice)}>
                 <span>{props.textoPergunta}</span>
                 {/* <IfElse teste={aberta}>
                     <IconChevronDown/>
