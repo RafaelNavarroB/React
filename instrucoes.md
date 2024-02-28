@@ -9,6 +9,6 @@
 - OK[REACT] componente com eventos
 - OK[REACT] componente com estado
 - OK[REACT] comnicacao entre componentes.
-- [REACT] renderização condicional
+- OK[REACT] renderização condicional
 - [REACT] renderização de listas
 - [REACT]
