@@ -34,3 +34,5 @@ flex justify-around items-center h-screen bg-red-400
  - select-all (ao clicar você já seleciona o texto)
  - overflow-hidden  (AJUSTA A BORDA)
  - md:w-3/4 (MD significa para tela menores enquanto o w-3/4 representa que aquela largura do componente sempre representará 3/4 da tela )
+
+ -hover:bg-blue-600 (efeito de sombreamento em botões ou outras coisas)

@@ -2,7 +2,7 @@ import TabelaSerieA from "@/components/listas/TabelaSerieA"
 import { IconBallFootball } from "@tabler/icons-react"
 
 export default function PaginaListaBasica(){
-    const tabelaSerieA=[
+    const times = [
     'Palmeiras',
     'Grêmio',
     'Atlético-MG',
@@ -12,7 +12,7 @@ export default function PaginaListaBasica(){
     'Fluminense',	
     'Athletico-PR',	
     'Internacional',	
-    'Fortaleza'
+    'Fortaleza',
     ]
     return(	
 
@@ -23,7 +23,7 @@ export default function PaginaListaBasica(){
             <IconBallFootball size={50} stroke={1.5}/>
             Tabela Série A
         </h1>
-        <TabelaSerieA/>
+        <TabelaSerieA times ={times}/>
         </div>
     )
 }
