@@ -1,12 +1,12 @@
 import Produto from "@/model/produto";
 
-const produtos: Produto[]=[
+const ListaProdutos: Produto[]=[
     {
         id:1,
         nome:"Camiseta",
         preco:39.9,
         descricao:"Camiseta branca de algodão",
-        imagem:'https://source.unsplash.com/featured/300x300?tshirt',
+        imagem:'https://source.unsplash.com/featured/300x200?tshirt',
     },
 
     {
@@ -14,7 +14,7 @@ const produtos: Produto[]=[
         nome:"Calça Jeans",
         preco:99.9,
         descricao:"Calça Azul de Algodão",
-        imagem:'https://source.unsplash.com/featured/300x300?calcajeans',
+        imagem:'https://source.unsplash.com/featured/300x200?calcajeans',
     },
 
     {
@@ -22,38 +22,38 @@ const produtos: Produto[]=[
         nome:"Tênis",
         preco:129.9,
         descricao:"Tênis esporitvo",
-        imagem:'https://source.unsplash.com/featured/300x300?sneakers',
+        imagem:'https://source.unsplash.com/featured/300x200?sneakers',
     },
     {
         id:4,
         nome:"Camisa Polo",
         preco:49.9,
         descricao:"Camisa polo azul",
-        imagem:'https://source.unsplash.com/featured/300x300?polo',
+        imagem:'https://source.unsplash.com/featured/300x200?polo',
     },
     {
         id:5,
         nome:"Camisa Social",
         preco:79.9,
         descricao:"Camiseta social branca",
-        imagem:'https://source.unsplash.com/featured/300x300?shirt',
+        imagem:'https://source.unsplash.com/featured/300x200?shirt',
     },
     {
         id:6,
         nome:"Blusa",
         preco:29.9,
         descricao:"Blusa de Lã",
-        imagem:'https://source.unsplash.com/featured/300x300?blouse',
+        imagem:'https://source.unsplash.com/featured/300x200?blouse',
     },
     {
         id:7,
         nome:"Jaqueta",
         preco:129.9,
         descricao:"Jaqueta de couro",
-        imagem:'https://source.unsplash.com/featured/300x300?jacket',
+        imagem:'https://source.unsplash.com/featured/300x200?jacket',
     }
 
 ]
 
-export default produtos
+export default ListaProdutos
 

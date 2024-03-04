@@ -1,9 +1,10 @@
-import Produto from "@/model/produto"
+import ModeloProduto from "@/model/produto"
 import { IconShoppingCart } from "@tabler/icons-react"
 import Image from "next/image"
 
 interface ProdutoItemProps{
-    produto: Produto
+    produto: ModeloProduto
+    comprar: (produto: ModeloProduto)=>void
 }
 
 export default function ProdutoItem(props: ProdutoItemProps) {
@@ -15,7 +16,7 @@ export default function ProdutoItem(props: ProdutoItemProps) {
             p-1
         `}>
             <Image src={props.produto.imagem} 
-            width={300} height={300}
+            width={300} height={200}
             alt="Imagem do Produto"
             className="rounded-md"
             />
@@ -28,7 +29,8 @@ export default function ProdutoItem(props: ProdutoItemProps) {
                 <div className="text-red-500 ">{produto.descricao}</div>
             </div>
             <div>
-                <button className='botao flex w-full justify-center gap-2'> <IconShoppingCart/>Comprar </button>
+                <button className='botao flex w-full justify-center gap-2'
+                onClick={()=>props.comprar(produto)}> <IconShoppingCart/>Comprar </button>
             </div>
         </div>
     )

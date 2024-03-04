@@ -1,4 +1,4 @@
-export default interface Produto{
+export default interface ModeloProduto{
     id: number;
     nome:string;
     preco:number;
